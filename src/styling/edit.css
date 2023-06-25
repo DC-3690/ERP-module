@@ -1,0 +1,50 @@
+.rac {
+  height: 400px;
+}
+.drag-area {
+  border: 2px dashed #121212;
+  height: 122px;
+  width: 122px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: #f4f5f7;
+  text-align: center;
+  padding-top: 40px;
+}
+.icon i {
+  padding-top: 30px;
+}
+
+.nav {
+  --bs-nav-link-color: #2f3990;
+}
+
+.myimage {
+  transition: width 0.2s, height 0.2s, border-color 0.2s, box-shadow 0.5s;
+}
+
+.myimage:hover {
+  height: 135px;
+  width: 135px;
+  box-shadow: 10px, 0px, 10px, 10px;
+  cursor: pointer;
+}
+
+.active2 a.active {
+  background-color: #3845b3;
+  color: white !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: var(--bs-navbar-nav-link-padding-x);
+  padding-left: var(--bs-navbar-nav-link-padding-x);
+  padding: 14px;
+}
+
+.navbar-expand-lg {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  padding: 0px;
+  height: 52px;
+}

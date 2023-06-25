@@ -1,0 +1,49 @@
+.invite {
+  background: "#2F3990";
+  color: "white";
+  padding: "3px 14px 3px 14px";
+}
+
+.cancel {
+  background: "white";
+  color: "#2F3990";
+  padding: "3px 14px 3px 14px";
+  border: "2px solid #2F3990";
+}
+
+.cancel:hover {
+  background: "#2F3990";
+  color: "white";
+}
+
+.listing {
+  border: 0px;
+}
+
+.listing:hover {
+  background: "#2F3990";
+}
+
+p {
+  font-size: 15px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
+
+input:invalid[focused="true"] {
+  border-color: red;
+}
+
+.i1:hover {
+  color: green;
+  cursor: pointer;
+}
+
+input:invalid[focused="true"] ~ p {
+  display: block;
+}
+
+input:valid[unfocused="true"] {
+  border-color: green;
+}

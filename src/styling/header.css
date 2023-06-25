@@ -1,0 +1,17 @@
+.active {
+  text-shadow: none;
+}
+
+.active:active {
+  background-color: #6471ea;
+}
+
+.List{
+  text-shadow: none;
+  font-weight: bold;
+}
+
+.List:hover {
+  background-color: #2f3990;
+  color: white;
+}
